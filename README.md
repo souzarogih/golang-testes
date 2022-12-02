@@ -1,6 +1,6 @@
 # Testes Automatizados
 
-## Exemplos de testes para lingugagem Golang
+## Exemplos de testes para linguagem Golang
 
 ## Comandos para executar testes
 
