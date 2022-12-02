@@ -4,30 +4,30 @@
 
 ## Comandos para executar testes
 
-<h2>Teste</h2>
+<h3>Teste</h3>
 
 `go test`
 
-<h2>Testa na pasta raiz os arquivos de dentro de um diretório</h2>
+<h3>Testa na pasta raiz os arquivos de dentro de um diretório</h3>
 
 `go test ./...`
 
-<h2>Testa mostrando detalhes</h2>
+<h3>Testa mostrando detalhes</h3>
 
 `go test -v`
 
-<h2>Testa mostrando a cobertura de testes</h2>
+<h3>Testa mostrando a cobertura de testes</h3>
 
 `go test --cover`
 
-<h2>Para gerar um arquivo com toda cobertura dos testes</h2>
+<h3>Para gerar um arquivo com toda cobertura dos testes</h3>
 
 `go test --coverprofile cobertura.txt`
 
-<h2>Ler o arquivo de cobertura</h2>
+<h3>Ler o arquivo de cobertura</h3>
 
 `go tool cover --func=cobertura.txt`
 
-<h2>Ler o arquivo de cobertura e exibe html</h2>
+<h3>Ler o arquivo de cobertura e exibe html</h3>
 
 `go tool cover --html=cobertura.txt`
